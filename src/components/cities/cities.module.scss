@@ -1,0 +1,17 @@
+.cities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 100;
+}
+.city{
+    z-index: 10;
+    &:hover{
+        color:wheat
+    }
+}

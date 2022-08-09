@@ -1,0 +1,50 @@
+.container{
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 800px;
+
+
+    &::after{
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        background-color: rgba(0,0,0,0.4);
+    }
+    &::before{
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        background-image: url('../../assets/bg.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #fff;
+    z-index: 10;
+}
+.bg{
+    background-color: rgb(53,24,66);
+    z-index: -100;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,58 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.input{
+    background-color: rgba(255,255,255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 20px;
+    color: #c2c2c2;
+    text-transform: capitalize;
+    outline: none;
+    z-index: 10;
+    &::placeholder{
+        color: rgba(255,255,255, 0.2)
+    }
+
+    &__wrapper{
+        display: flex;
+    }
+}
+
+.icons{
+    margin: auto 0;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    color:white;
+    z-index: 10;
+    cursor: pointer;
+
+    :first-child{
+        margin-left: 0;
+    }
+}
+.icon{
+    margin-left: 10px;
+}
+
+.temperature-chooses{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    font-size: 30px;
+    z-index: 10;
+}
+.temperature-choose{
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.separator{
+    cursor: default;
+}
